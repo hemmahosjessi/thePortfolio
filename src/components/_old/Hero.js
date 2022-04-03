@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import { Header } from "./Header";
+import { Header } from "../header/Header";
 import { 
     HeroSection,
     MainSection,
@@ -13,7 +13,7 @@ import {
     Contact,
     ContactButton,
     BottomSection,
-} from 'utils/styles'
+} from './styles_hero'
 
 
 

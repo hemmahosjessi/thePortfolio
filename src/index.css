@@ -1,5 +1,19 @@
+:root {
+  --background-color: #F5F4F0;
+  --yellow: #EBFE0E;
+  --green: #357C3C;
+  --text-primary: #333333;
+  --text-secondary: #868686;
+  --padding-1: 1rem;
+  --padding-2: 2rem;
+  --padding-3: 3rem;
+  
+}
+
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
   }
 

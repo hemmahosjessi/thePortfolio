@@ -6,12 +6,12 @@ import {
 
 
 
-export const AboutPage = () => {
+export const FEPage = () => {
     return (
         <>
         <AboutSection>
             <AboutText>
-                <h1>THIS IS THE ABOUTPAGE</h1>
+                <h1>THIS IS THE FE PAGE</h1>
             </AboutText>
         </AboutSection>
         </>

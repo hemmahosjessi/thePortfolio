@@ -6,12 +6,12 @@ import {
 
 
 
-export const AboutPage = () => {
+export const UIPage = () => {
     return (
         <>
         <AboutSection>
             <AboutText>
-                <h1>THIS IS THE ABOUTPAGE</h1>
+                <h1>THIS IS THE UI PAGE</h1>
             </AboutText>
         </AboutSection>
         </>

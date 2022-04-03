@@ -1,12 +1,15 @@
 import React from "react";
-import { Hero } from '../components/Hero'
+import { Hero2 } from '../components/hero/Hero2'
+import { CardGrid } from '../components/reusable/CardGrid'
+
 
 
 
 export const StartPage = () => {
     return (
         <>
-        <Hero />
+        <Hero2 />
+        <CardGrid />
         </>
 
         
