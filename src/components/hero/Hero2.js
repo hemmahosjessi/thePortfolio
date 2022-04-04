@@ -8,6 +8,7 @@ import {
     HeroSection,
     TopSection,
     H1,
+    Title,
     ColorSpan,
     IntroSection,
     P,
@@ -20,7 +21,7 @@ export const Hero2 = () => {
         <HeroSection>
             <TopSection>
                 <Label>JESSI NYGREN WALHED</Label>
-                <H1>Visual Design + Frontend = <ColorSpan>TRUE</ColorSpan></H1>
+                <Title>Visual Design + Frontend = <ColorSpan>TRUE</ColorSpan></Title>
             </TopSection>
             <IntroSection>
                 <Label>INTRO</Label>

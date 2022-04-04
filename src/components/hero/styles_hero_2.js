@@ -5,11 +5,11 @@ import styled from "styled-components";
 // Hero //
 
 export const HeroSection = styled.section `
-    background: var(--background-color);
     height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    grid-row-gap: 2rem;
     background-color: var(--yellow);
     border-radius: 1rem;
     margin: 0 6rem;
@@ -27,6 +27,15 @@ export const H1 = styled.h1 `
     margin: 1rem 0 1rem 0;
 `
 
+export const Title = styled.h2`
+    font-size: 6rem;
+    line-height: 6.8rem;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 2rem;
+    // max-width: 50%;
+`
+
 export const ColorSpan = styled.span`
     color: var(--green);
     font-weight: 600;
@@ -35,13 +44,11 @@ export const ColorSpan = styled.span`
 export const IntroSection = styled.section`
     display: flex;
     flex-direction: column;
-    background-color: var(--yellow);
-    border-radius: 1rem;
     justify-content: flex-end;
+    margin-left: 1rem;
 `
 
 export const P = styled.p`
     font-size: 1rem;
     line-height: 1.875rem;
-    max-width: 33%;
 `
