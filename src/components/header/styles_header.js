@@ -40,6 +40,7 @@ export const MenuIcon = styled.img `
         // transform: rotate(180deg);
         background-color: #EBFE0E;
         padding: 1rem;
+        border-radius: 8px;
     }
 `
 

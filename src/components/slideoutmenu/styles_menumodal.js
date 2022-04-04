@@ -73,11 +73,16 @@ export const MenuItems = styled.ul `
                     display: block;
                     text-decoration: none;
                     color: inherit;
+                    transform: scale;
+                    transition-property: all;
+                    transition-duration: 0.4s;
                     @include all-transition(0.3s);
 
                     &:hover
                     {
                         color: var(--text-secondary);
+                        transform: scale(1.02);
+                        cursor: pointer;
                     }
                 }
             } 
@@ -102,6 +107,9 @@ export const SocialIcons = styled.div `
 export const SocialIcon = styled.img`
     display: flex;
     height: 32px;
+    transform: scale;
+    transition-property: all;
+    transition-duration: 0.4s;
 
         &:hover {
             transform: scale(1.1);

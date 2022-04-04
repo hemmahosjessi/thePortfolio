@@ -58,10 +58,17 @@ export const MenuModal = ({showModal, setShowModal}) => {
                             <a href="https://github.com/hemmahosjessi?tab=repositories">
                                 <SocialIcon src="../images/github.svg" alt="github-logo"/>
                             </a>
+                            <a href="https://github.com/hemmahosjessi?tab=repositories">
+                                <SocialIcon src="../images/facebook.svg" alt="github-logo"/>
+                            </a>
+                            <a href="https://github.com/hemmahosjessi?tab=repositories">
+                                <SocialIcon src="../images/spotify.svg" alt="github-logo"/>
+                            </a>
                             </SocialIcons>
                         </FindMeHere>
                     </LeftContainer>
                     <MenuItems>
+                    <li><Link to='/' style={linkStyle}>Home</Link></li>
                         <li><Link to='/about' style={linkStyle}>About me</Link></li>
                         <li><Link to='/ui' style={linkStyle}>Visual Design</Link></li>
                         <li><Link to='/fe' style={linkStyle}>Frontend</Link></li>

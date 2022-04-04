@@ -32,7 +32,7 @@ export const ColorSpan = styled.span`
     font-weight: 600;
 `
 
-export const IntroSection = styled.section `
+export const IntroSection = styled.section`
     display: flex;
     flex-direction: column;
     background-color: var(--yellow);
@@ -40,7 +40,7 @@ export const IntroSection = styled.section `
     justify-content: flex-end;
 `
 
-export const P = styled.p `
+export const P = styled.p`
     font-size: 1rem;
     line-height: 1.875rem;
     max-width: 33%;
