@@ -1,16 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom"
 import { SkillsCard } from "components/reusable/SkillsCard";
 
 import { 
     Label,
 } from '../../utils/styles'
 
-
-const linkStyle = {
-    textDecoration: "none",
-  };
 
 export const TwoColumn  = ({label, title, description}) => {
 

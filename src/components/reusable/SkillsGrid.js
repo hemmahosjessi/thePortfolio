@@ -8,10 +8,10 @@ const linkStyle = {
   };
 
 
-export const CardGrid = () => {
+export const SkillsGrid = (className) => {
 
     return (
-        <StyledGrid>
+        <StyledGrid className={className}>
             <Link to='/about' style={linkStyle}>
             <Card
             label='ABOUT ME'

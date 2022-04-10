@@ -39,16 +39,21 @@ export const LeftContainer = styled.div`
     `;
 
 export const CloseModalButton = styled(MdClose)`
-  cursor: pointer;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  z-index: 10;
-  color: #333333;
-  right: 0;
-  top: 0;
-  position: absolute;
-  padding: 3rem 6rem;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+    color: #333333;
+    right: 6rem;
+    top: 3rem;
+    position: absolute;
+    transition: all 0.4s ease;
+
+  &:hover {
+    background-color: #EBFE0E;
+    border-radius: 8px;
+    padding: 1rem;
+}
 `;
 
 

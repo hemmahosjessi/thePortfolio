@@ -7,6 +7,7 @@ import { FEPage } from 'pages/FEPage'
 import { ContactPage } from 'pages/ContactPage' 
 
 import { Header } from 'components/header/Header'
+import { Footer } from 'components/footer/Footer'
 
 
 export const App = () => {
@@ -21,6 +22,7 @@ export const App = () => {
       <Route path="/fe" element={<FEPage />}> </Route>
       <Route path="/contact" element={<ContactPage />}> </Route>
     </Routes> 
+    <Footer />
     </BrowserRouter>
   )
 }
