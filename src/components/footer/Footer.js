@@ -41,6 +41,7 @@ const StyledFooter = styled.footer`
     flex-direction: row;
     justify-content: space-between;
     padding: 0 2rem 2rem 2rem;
+    position: absolute;
 `
 
 const FindMeHere = styled.div `

@@ -3,25 +3,30 @@ import { MdClose } from 'react-icons/md';
 
 
 export const ModalWrapper = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 //   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  z-index: 10;
-  border-radius: 1rem;
-  margin-bottom: 4rem;
+//   display: grid;
+  //   grid-template-columns: 1fr 1fr;
+  //   z-index: 10;
+  //   border-radius: 1rem;
+  //   margin-bottom: 4rem;
+  display: flex;
+
 `;
 
 export const Background = styled.div`
+display: flex;
+position: fixed;
+inset: 0;
 width: 100%;
 height: 100%;
 background: rgba(0, 0, 0, 0.9)
-position: fixed;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
+background: red!important;
 `
 
 export const ModalImg = styled.img`
@@ -36,6 +41,7 @@ export const LeftContainer = styled.div`
     align-items: center;
     background-color: var(--yellow);
     padding: 4rem;
+    flex: 1;
     `;
 
 export const CloseModalButton = styled(MdClose)`
@@ -67,6 +73,7 @@ export const MenuItems = styled.ul `
     font-size: 1.125rem;
     padding: 4rem;
     margin: auto;
+    flex: 1;
 
         li
             {

@@ -40,7 +40,7 @@ export const MenuModal = ({showModal, setShowModal}) => {
         <>
         {showModal ? (
             <Background onClick={closeModal}>
-                <animated.div style={animation}>
+                {/* // <animated.div style={animation}> */}
                 <ModalWrapper showModal={showModal}>
                     <LeftContainer>                    
                         <ModalImg 
@@ -79,7 +79,7 @@ export const MenuModal = ({showModal, setShowModal}) => {
                         onClick={() => setShowModal(prev => !prev)}
                     />
                 </ModalWrapper>
-            </animated.div>
+                {/* </animated.div> */}
             </Background>
         ) : null}
         </>
