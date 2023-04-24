@@ -1,10 +1,9 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { 
-    Label,
+import {
+    Label
 } from '../../utils/styles'
-
 
 export const Footer = () => {
 
@@ -17,14 +16,14 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/jessi-nygren-walhed-7bb81010">
                     <SocialIcon src="../images/linkedin.svg" alt="linkedin-logo"/>
                 </a>
-                <a href="https://github.com/hemmahosjessi?tab=repositories">
+                <a href='https://github.com/hemmahosjessi?tab=repositories'>
                     <SocialIcon src="../images/github.svg" alt="github-logo"/>
                 </a>
-                <a href="https://github.com/hemmahosjessi?tab=repositories">
+                <a href='https://github.com/hemmahosjessi?tab=repositories'>
                     <SocialIcon src="../images/facebook.svg" alt="github-logo"/>
                 </a>
-                <a href="https://github.com/hemmahosjessi?tab=repositories">
-                    <SocialIcon src="../images/spotify.svg" alt="github-logo"/>
+                <a href='https://github.com/hemmahosjessi?tab=repositories'>
+                    <SocialIcon src='../images/spotify.svg" alt="github-logo'/>
                 </a>
                 </SocialIcons>
             </FindMeHere>

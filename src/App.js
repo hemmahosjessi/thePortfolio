@@ -4,25 +4,23 @@ import { StartPage } from 'pages/StartPage'
 import { AboutPage } from 'pages/AboutPage'
 import { UIPage } from 'pages/UIPage'
 import { FEPage } from 'pages/FEPage'
-import { ContactPage } from 'pages/ContactPage' 
+import { ContactPage } from 'pages/ContactPage'
 
 import { Header } from 'components/header/Header'
 import { Footer } from 'components/footer/Footer'
 
-
 export const App = () => {
-
   return (
     <BrowserRouter>
-    <Header />
-    <Routes>
-      <Route path="/" element={<StartPage /> }> </Route>
-      <Route path="/about" element={<AboutPage />}> </Route>
-      <Route path="/ui" element={<UIPage />}> </Route>
-      <Route path="/fe" element={<FEPage />}> </Route>
-      <Route path="/contact" element={<ContactPage />}> </Route>
-    </Routes> 
-    <Footer />
+      <Header />
+      <Routes>
+        <Route path="/" element={<StartPage />}> </Route>
+        <Route path="/about" element={<AboutPage />}> </Route>
+        <Route path="/ui" element={<UIPage />}> </Route>
+        <Route path="/fe" element={<FEPage />}> </Route>
+        <Route path="/contact" element={<ContactPage />}> </Route>
+      </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
