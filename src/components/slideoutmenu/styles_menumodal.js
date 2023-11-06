@@ -1,6 +1,5 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
-
 
 export const ModalWrapper = styled.div`
   width: 100%;
@@ -62,8 +61,7 @@ export const CloseModalButton = styled(MdClose)`
 }
 `;
 
-
-export const MenuItems = styled.ul `
+export const MenuItems = styled.ul`
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -100,7 +98,7 @@ export const MenuItems = styled.ul `
             } 
 `
 
-export const FindMeHere = styled.div `
+export const FindMeHere = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +106,7 @@ export const FindMeHere = styled.div `
     padding-top: 1rem;
 `
 
-export const SocialIcons = styled.div `
+export const SocialIcons = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;

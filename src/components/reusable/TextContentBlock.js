@@ -1,18 +1,16 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-
-export const TextContentBlock = ({image, h1, preamble, bodyOne, bodyTwo, className}) => {
-
-    return (
-        <PageContent className={className}>
-            <Picture src={`${image}`}></Picture>
-            <H1>{h1}</H1>
-            <Preamble>{preamble}</Preamble>
-            <Body>{bodyOne}</Body>
-            <Body>{bodyOne}</Body>
-        </PageContent>
-    )
+export const TextContentBlock = ({ image, h1, preamble, bodyOne, bodyTwo, className }) => {
+  return (
+    <PageContent className={className}>
+      <Picture src={`${image}`} />
+      <H1>{h1}</H1>
+      <Preamble>{preamble}</Preamble>
+      <Body>{bodyOne}</Body>
+      <Body>{bodyTwo}</Body>
+    </PageContent>
+  )
 }
 
 export const H1 = styled.h1`
@@ -33,7 +31,7 @@ export const Body = styled.p`
     color: #333333;
 `
 
-export const PageContent = styled.section `
+export const PageContent = styled.section`
     display: flex;
     flex-direction: column;
     padding: 3rem;
@@ -46,6 +44,4 @@ width: 50%;
 height: 50%;
 margin-bottom: 1rem;
 `
-
-
 
