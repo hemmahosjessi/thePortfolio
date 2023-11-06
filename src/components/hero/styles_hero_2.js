@@ -10,7 +10,8 @@ export const HeroSection = styled.section `
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4rem;
     grid-row-gap: 2rem;
-    background-color: var(--yellow);
+    // background-color: var(--yellow);
+    background-color: #006D31;
     border-radius: 1rem;
     margin: 0 6rem;
     padding: 6rem;
