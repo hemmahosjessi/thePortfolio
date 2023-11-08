@@ -1,9 +1,17 @@
 :root {
   --background-color-grey: #F5F4F0;
-  --yellow: #EBFE0E;
-  --yellow2: #FFD124;
-  --green: #357C3C;
+  --background-color-white: #ffffff;
+  --yellow100: #EBFE0E;
+  --yellow200: #FFD124;
+  --onGreen300: #83D296;
+  --green300: #357C3C;
+  --green200: #357C3C;
+  --onGreen100: #65CE7E;
+  --green100 :#006D31;
+  --onGreen: #29964D;
+  --green: #003916;
   --text-primary: #333333;
+  --text-primary-inverse: #ffffff;
   --text-secondary: #868686;
   --padding-1: 1rem;
   --padding-2: 2rem;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 // Header //
 
@@ -10,7 +10,7 @@ justify-content: space-between;
 align-items: center;
 `
 
-export const JesIcon = styled.h1 `
+export const JesIcon = styled.h1`
     font-size: 1.125rem;
     font-weight: 400;
     float: none;
@@ -29,7 +29,7 @@ export const JesIcon = styled.h1 `
     }
 `
 
-export const MenuIcon = styled.img `
+export const MenuIcon = styled.img`
     height: 20px;
     width: auto;
     cursor: pointer;

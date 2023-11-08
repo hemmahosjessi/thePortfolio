@@ -1,25 +1,20 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { 
-    Label,
+import {
+  Label
 } from '../../utils/styles'
 
-
-
-
-export const PicCard = ({image, label, title, description, className}) => {
-
-    return (
-        <StyledCard className={className}>
-            <Picture src={`images/${image}`}></Picture>
-            <Label>{label}</Label>
-            <Title>{title}</Title>
-            <Description>{description}</Description>
-        </StyledCard>
-    )
+export const PicCard = ({ image, label, title, description, className }) => {
+  return (
+    <StyledCard className={className}>
+      <Picture src={`images/${image}`} />
+      <Label>{label}</Label>
+      <Title>{title}</Title>
+      <Description>{description}</Description>
+    </StyledCard>
+  )
 }
-
 
 const StyledCard = styled.div`
     border-radius: 0.5rem;
