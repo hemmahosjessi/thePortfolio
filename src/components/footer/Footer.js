@@ -2,35 +2,33 @@ import React from 'react';
 import styled from 'styled-components';
 
 import {
-    Label
+  Label
 } from '../../utils/styles'
 
 export const Footer = () => {
+  return (
 
-    return (
-
-        <StyledFooter>
-            <FindMeHere>
-                <Label>FIND ME HERE</Label>
-                <SocialIcons>
-                <a href="https://www.linkedin.com/in/jessi-nygren-walhed-7bb81010">
-                    <SocialIcon src="../images/linkedin.svg" alt="linkedin-logo"/>
-                </a>
-                <a href='https://github.com/hemmahosjessi?tab=repositories'>
-                    <SocialIcon src="../images/github.svg" alt="github-logo"/>
-                </a>
-                <a href='https://github.com/hemmahosjessi?tab=repositories'>
-                    <SocialIcon src="../images/facebook.svg" alt="github-logo"/>
-                </a>
-                <a href='https://github.com/hemmahosjessi?tab=repositories'>
-                    <SocialIcon src='../images/spotify.svg" alt="github-logo'/>
-                </a>
-                </SocialIcons>
-            </FindMeHere>
-        </StyledFooter>
-    )
+    <StyledFooter>
+      <FindMeHere>
+        <Label>FIND ME HERE</Label>
+        <SocialIcons>
+          <a href="https://www.linkedin.com/in/jessi-nygren-walhed-7bb81010">
+            <SocialIcon src="../images/linkedin.svg" alt="linkedin-logo" />
+          </a>
+          <a href="https://github.com/hemmahosjessi?tab=repositories">
+            <SocialIcon src="../images/github.svg" alt="github-logo" />
+          </a>
+          <a href="https://github.com/hemmahosjessi?tab=repositories">
+            <SocialIcon src="../images/facebook.svg" alt="github-logo" />
+          </a>
+          <a href="https://github.com/hemmahosjessi?tab=repositories">
+            <SocialIcon src='../images/spotify.svg" alt="github-logo' />
+          </a>
+        </SocialIcons>
+      </FindMeHere>
+    </StyledFooter>
+  )
 }
-
 
 const StyledFooter = styled.footer`
     width: 100%;
@@ -43,13 +41,13 @@ const StyledFooter = styled.footer`
     position: absolute;
 `
 
-const FindMeHere = styled.div `
+const FindMeHere = styled.div`
     display: flex;
     flex-direction: column;
     padding-top: 1rem;
 `
 
-const SocialIcons = styled.div `
+const SocialIcons = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;

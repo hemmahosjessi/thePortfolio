@@ -1,17 +1,14 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-
-export const Skill = ({title, category}) => {
-
-    return (
-        <StyledSkill>
-           <Category>{category}</Category>
-            <Skilltext>{title}</Skilltext>
-        </StyledSkill>
-    )
+export const Skill = ({ title, category }) => {
+  return (
+    <StyledSkill>
+      <Category>{category}</Category>
+      <Skilltext>{title}</Skilltext>
+    </StyledSkill>
+  )
 }
-
 
 export const StyledSkill = styled.div`
     display: flex;

@@ -1,27 +1,24 @@
-import React from "react";
-import styled from "styled-components";
-
+/* eslint-disable max-len */
+import React from 'react';
+import styled from 'styled-components';
 
 export const Gif = () => {
-
-    return (
-        <ImgContainer>  
-            <ImgWide src="../images/Screen Recording 2022-04-04 at 15.36.27.gif"/>
-            <Overlay>
-                <Text>
-                    <Label>SERVEY</Label>
-                    <Title>Start using state in React</Title>
-                    <Description>This week we finally got to use React to its full potential by introducing State.
+  return (
+    <ImgContainer>
+      <ImgWide src="../images/Screen Recording 2022-04-04 at 15.36.27.gif" />
+      <Overlay>
+        <Text>
+          <Label>SERVEY</Label>
+          <Title>Start using state in React</Title>
+          <Description>This week we finally got to use React to its full potential by introducing State.
                    We practiced React state and controlled forms by making a Typeform like product. The completed project should consist of at least 3 questions that need to be answered by users. When the user presses submit, they should see a summary of their answers.
-                    </Description>
-                    </Text>
-            </Overlay>
-        </ImgContainer>
+          </Description>
+        </Text>
+      </Overlay>
+    </ImgContainer>
 
-
-    )
+  )
 }
-
 
 const ImgWide = styled.img`
     object-fit: contain;
@@ -37,7 +34,7 @@ const ImgContainer = styled.div`
     position: relative;
 `
 
-const Overlay = styled.div `
+const Overlay = styled.div`
     position: absolute;
     top: 0;
     bottom: 0;

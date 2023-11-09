@@ -1,28 +1,25 @@
-import React from "react";
-import styled from "styled-components";
-import { SkillsCard } from "components/reusable/SkillsCard";
+import React from 'react';
+import styled from 'styled-components';
+import { SkillsCard } from 'components/reusable/SkillsCard';
 
-import { 
-    Label,
+import {
+  Label
 } from '../../utils/styles'
 
-
-export const TwoColumn  = ({label, title, description}) => {
-
-    return (
-        <StyledTwoColumn>
-            <Left>
-                <Label>{label}</Label>
-                <Title>{title}</Title>
-                <Description>{description}</Description>
-            </Left>
-            <Right>
-                <SkillsCard />
-            </Right>
-        </StyledTwoColumn>
-    )
+export const TwoColumn = ({ label, title, description }) => {
+  return (
+    <StyledTwoColumn>
+      <Left>
+        <Label>{label}</Label>
+        <Title>{title}</Title>
+        <Description>{description}</Description>
+      </Left>
+      <Right>
+        <SkillsCard />
+      </Right>
+    </StyledTwoColumn>
+  )
 }
-
 
 export const StyledTwoColumn = styled.div`
     display: grid;

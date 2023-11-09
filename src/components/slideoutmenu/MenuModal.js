@@ -1,3 +1,5 @@
+/* eslint-disable no-return-assign */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { Link } from 'react-router-dom'

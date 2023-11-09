@@ -1,24 +1,19 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { 
-    Label,
+import {
+  Label
 } from '../../utils/styles'
 
-
-
-
-export const Card = ({label, title, description, className}) => {
-
-    return (
-        <StyledCard className={className}>
-            <Label>{label}</Label>
-            <Title>{title}</Title>
-            <Description>{description}</Description>
-        </StyledCard>
-    )
+export const Card = ({ label, title, description, className }) => {
+  return (
+    <StyledCard className={className}>
+      <Label>{label}</Label>
+      <Title>{title}</Title>
+      <Description>{description}</Description>
+    </StyledCard>
+  )
 }
-
 
 export const StyledCard = styled.div`
     border-radius: 0.5rem;
